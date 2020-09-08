@@ -1,0 +1,236 @@
+@import 'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+    --dddd:#f10064f5;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+header{
+    background:var(--dark);
+    clip-path: polygon(0 0,100% 0,100% 100%,75% 90%,0 100%);
+    
+}
+.container{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all 2s ease;
+}
+header nav .left a:hover{
+    color:var(--primary);
+}
+header nav{
+    padding:2rem 0;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+.hero{
+    padding:3rem 0;
+}
+.hero .right{
+    color: var(--pure);
+}
+.hero .right h2{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 0.9;
+    margin-bottom: ;
+}
+.hero .right h1 span{
+    color:var(--dddd);
+}
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+.btn-secondary{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-secondary:hover{
+    background:var(--primary);
+    color: var(--secondary);
+    transition: all 2s ease;
+}
+.flex-1{
+    flex:1;
+}
+section{
+    padding:6rem;
+}
+.margin{
+    padding:0rem;
+    font-size:1.0rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+.margin h4{
+    color:var(--primary);
+    
+    
+
+}
+.about{
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+.abhi{
+    margin:300px;
+    margin-top: 0rem;
+}
+.abhi h1 span{
+    color: var(--primary);
+}
+.abhi h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.services .container .section-heading{
+    color: var(--primary);
+}
+.section-heading{
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height:0.5;
+}
+.section-heading +p{
+    color: var(--ternary);
+    font-family: 'Lato' , sans-serif;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.section-heading span{
+    color:var(--primary);
+}
+section.services .card-wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.services h1 span{
+    margin-left: 40rem;
+    color: var(--pure);
+    background-color:#f10064f5;
+    font-size: 3rem;
+}
+.services{
+      padding-top: 0rem;
+      margin-top: 0rem;
+      background:var(--dark);
+      color: var(--pure);
+      border-color: var(--primary);
+}
+.shweta{
+    color: var(--primary);
+    align-items: center;
+    margin-left: 40rem;
+    margin-right: 34rem;
+    color: var(--secondary);
+    background-color:var(--primary);
+    font-size: 3rem;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    
+}
+.center .dinkale{
+    background-color:var(--dark);
+    color: var(--primary);
+}
+.skills{
+    background-color:var(--secondary);
+    color: var(--primary);
+    border-color: var(--primary);
+    
+    align-content: center;
+    font-size: 3rem;
+    margin-left: 40rem;
+}
+.skills:hover{
+    background: var(--primary);
+    color: var(--secondary);
+    transition: all 2s ease;
+}
+.jyoti{
+    
+    background: var(--primary);
+    color: var(--secondary);
+    border-color: var(--secondary);
+    
+    align-content: center;
+    font-size: 3rem;
+    margin-left: 35rem;
+}
+.jyoti:hover{
+    background-color:var(--dddd);
+    color: var(--secondary);
+    transition: all 2s ease;
+}
+.certifications {
+    background: var(--secondary);
+    color: var(--primary);
+    border-color: var(--primary);
+    
+    align-content: center;
+    font-size: 3rem;
+    margin-left: 40rem;
+
+}
+.cert{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+    color:var(--pure);
+    font-size: 1.2rem;
+    
+}
+
+.vv{
+    background: var(--secondary);
+}
+.amummy{
+    margin-left: 35rem;
+    margin-right: 40rem;
+    margin-top: 0rem;
+    font-size: 3rem;
+    font-weight: 800;
+    background: var(--pure);
+    color: var(--secondary);
+    
+
+}
+.amummy span{
+    color: var(--dddd);
+}
